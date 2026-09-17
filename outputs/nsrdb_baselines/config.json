@@ -1,0 +1,75 @@
+{
+  "name": "kerala_2018",
+  "csv": "data/nsrdb/99129_9.96_76.25_2018.csv",
+  "prepared": "data/processed/study.npz",
+  "latitude": 9.96,
+  "longitude": 76.25,
+  "elevation_m": 5,
+  "interval_minutes": 10,
+  "history_steps": 6,
+  "horizons_minutes": [
+    10,
+    30,
+    60,
+    120
+  ],
+  "primary_horizon_minutes": 60,
+  "solar_elevation_min": 5,
+  "clearsky_ghi_min": 50,
+  "clearsky_model": "haurwitz",
+  "windows": [
+    {
+      "split": "train",
+      "start": "2018-01-01T00:00:00Z",
+      "end": "2018-08-01T00:00:00Z"
+    },
+    {
+      "split": "validation",
+      "start": "2018-08-01T00:00:00Z",
+      "end": "2018-11-01T00:00:00Z"
+    },
+    {
+      "split": "test",
+      "start": "2018-11-01T00:00:00Z",
+      "end": "2019-01-01T00:00:00Z"
+    }
+  ],
+  "satellite": {
+    "bucket": "noaa-himawari8",
+    "bands": [
+      "B08",
+      "B13",
+      "B15"
+    ],
+    "patch_size": 64,
+    "extent_km": 256,
+    "availability_lag_minutes": 10,
+    "max_missing_fraction": 0.01,
+    "patch_dir": "data/patches/study",
+    "windows": [],
+    "byte_budget_gib": 2,
+    "keep_raw": false
+  },
+  "training": {
+    "seed": 13,
+    "epochs": 50,
+    "patience": 7,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "hidden": 32,
+    "cpu_threads": 2
+  },
+  "gradient_boosting": {
+    "max_iter": 150,
+    "max_leaf_nodes": 15,
+    "l2_regularization": 1.0
+  },
+  "analysis": {
+    "bootstrap_resamples": 5000,
+    "block_days": 7,
+    "practical_skill": 0.05
+  },
+  "_root": "/workspace/scratch/ac9c83dc0745/himawari_nsrdb",
+  "_config": "/workspace/scratch/ac9c83dc0745/himawari_nsrdb/configs/study.json"
+}

@@ -1,0 +1,68 @@
+{
+  "changes": [
+    {
+      "issue": "Pressure tendency needs 30 minutes before earliest tabular input",
+      "fix": "Purge full raw-feature history; regenerate arrays and rerun baselines",
+      "scientific_test_evaluated": false
+    },
+    {
+      "issue": "Float32 variance rounding on constant training PW produced excessive standardized inputs",
+      "fix": "Fit mean/std in float64; unit scale for constant features; add regression and checkpoint guard",
+      "discarded_smoke_metrics_60m": [
+        {
+          "model": "fusion_none",
+          "seed": 13,
+          "split": "validation",
+          "horizon_minutes": 60,
+          "n": 10,
+          "mae_k": 32.6714973449707,
+          "rmse_k": 75.04633331298828,
+          "mae_ghi_wm2": 28091.49482421875,
+          "rmse_ghi_wm2": 64541.88235959824,
+          "ramp_prevalence": 0.4,
+          "ramp_events_rows": 4,
+          "ramp_average_precision": 0.28154761904761905,
+          "ramp_precision": 0.4,
+          "ramp_recall": 1.0,
+          "cloud_changing_mae_k": null
+        },
+        {
+          "model": "image_none",
+          "seed": 13,
+          "split": "validation",
+          "horizon_minutes": 60,
+          "n": 10,
+          "mae_k": 0.8693431615829468,
+          "rmse_k": 0.8693485260009766,
+          "mae_ghi_wm2": 739.8423858642578,
+          "rmse_ghi_wm2": 739.9301189506862,
+          "ramp_prevalence": 0.4,
+          "ramp_events_rows": 4,
+          "ramp_average_precision": 0.28154761904761905,
+          "ramp_precision": 0.4,
+          "ramp_recall": 1.0,
+          "cloud_changing_mae_k": null
+        },
+        {
+          "model": "tabular_none",
+          "seed": 13,
+          "split": "validation",
+          "horizon_minutes": 60,
+          "n": 10,
+          "mae_k": 1077.1734619140625,
+          "rmse_k": 1132.3040771484375,
+          "mae_ghi_wm2": 918602.58125,
+          "rmse_ghi_wm2": 967378.6886607897,
+          "ramp_prevalence": 0.4,
+          "ramp_events_rows": 4,
+          "ramp_average_precision": 0.31795634920634924,
+          "ramp_precision": 0.4,
+          "ramp_recall": 1.0,
+          "cloud_changing_mae_k": null
+        }
+      ]
+    }
+  ],
+  "design_changes": "No architecture, seed, epoch or outcome-driven date changes",
+  "environment_reset": "Code reconstructed from recorded implementation; identical baseline values reproduced; raw image sample reacquired; durable checkpoint created"
+}

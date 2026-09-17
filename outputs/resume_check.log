@@ -1,0 +1,3 @@
+epoch=2 train_MAE=1.0330 validation_MAE_60m=0.9870
+epoch=3 train_MAE=1.0171 validation_MAE_60m=0.9870
+{'status': 'passed', 'check': 'interruption after epoch 1; resumed final weights and predictions exactly match uninterrupted CPU run', 'prediction_rows': 40, 'test_evaluated': False}

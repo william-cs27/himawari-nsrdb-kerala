@@ -1,0 +1,86 @@
+{
+  "name": "engineering_smoke",
+  "csv": "data/nsrdb/99129_9.96_76.25_2018.csv",
+  "prepared": "data/processed/smoke.npz",
+  "latitude": 9.96,
+  "longitude": 76.25,
+  "elevation_m": 5,
+  "interval_minutes": 10,
+  "history_steps": 6,
+  "horizons_minutes": [
+    10,
+    30,
+    60,
+    120
+  ],
+  "primary_horizon_minutes": 60,
+  "solar_elevation_min": 5,
+  "clearsky_ghi_min": 50,
+  "clearsky_model": "haurwitz",
+  "windows": [
+    {
+      "split": "train",
+      "start": "2018-01-01T00:00:00Z",
+      "end": "2018-01-02T00:00:00Z"
+    },
+    {
+      "split": "validation",
+      "start": "2018-01-03T00:00:00Z",
+      "end": "2018-01-04T00:00:00Z"
+    },
+    {
+      "split": "test",
+      "start": "2018-01-05T00:00:00Z",
+      "end": "2018-01-06T00:00:00Z"
+    }
+  ],
+  "satellite": {
+    "bucket": "noaa-himawari8",
+    "bands": [
+      "B13"
+    ],
+    "patch_size": 32,
+    "extent_km": 256,
+    "availability_lag_minutes": 10,
+    "max_missing_fraction": 0.01,
+    "patch_dir": "data/patches/smoke",
+    "windows": [
+      {
+        "start": "2018-01-01T04:00:00Z",
+        "end": "2018-01-01T06:30:00Z"
+      },
+      {
+        "start": "2018-01-03T04:00:00Z",
+        "end": "2018-01-03T06:30:00Z"
+      },
+      {
+        "start": "2018-01-05T04:00:00Z",
+        "end": "2018-01-05T06:30:00Z"
+      }
+    ],
+    "byte_budget_gib": 1.5,
+    "keep_raw": false
+  },
+  "training": {
+    "seed": 13,
+    "epochs": 3,
+    "patience": 3,
+    "batch_size": 8,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "hidden": 16,
+    "cpu_threads": 2
+  },
+  "gradient_boosting": {
+    "max_iter": 30,
+    "max_leaf_nodes": 15,
+    "l2_regularization": 1.0
+  },
+  "analysis": {
+    "bootstrap_resamples": 5000,
+    "block_days": 7,
+    "practical_skill": 0.05
+  },
+  "_root": "/workspace/scratch/ac9c83dc0745/himawari_nsrdb",
+  "_config": "/workspace/scratch/ac9c83dc0745/himawari_nsrdb/configs/smoke.json"
+}

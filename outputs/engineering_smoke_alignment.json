@@ -1,0 +1,10 @@
+{
+  "available_patches": 44,
+  "matched_samples": 24,
+  "splits": {
+    "train": 10,
+    "validation": 10,
+    "test": 4
+  },
+  "image_latency_minutes": 10
+}

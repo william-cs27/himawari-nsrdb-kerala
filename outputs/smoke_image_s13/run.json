@@ -1,0 +1,21 @@
+{
+  "fingerprint": "8a303c909a96b6a33a8c13852a16c9e623abc3cbb9231efbd1ce7b197ce1d71b",
+  "mode": "image",
+  "ablation": "none",
+  "seed": 13,
+  "matched": true,
+  "cohort_sha256": "a4c1a52e33d0accc1a1f118a3de939802572bc851b9873042a28368a4c3e4569",
+  "dataset_sha256": "800e5d10a108aaf79f16152048cba84caae57b27cfcf2c7323ad504845f7d442",
+  "device": "cpu",
+  "parameters": 7956,
+  "samples": {
+    "train": 10,
+    "validation": 10,
+    "test": 4
+  },
+  "epochs_completed": 3,
+  "session_wall_seconds": 0.18305630500071857,
+  "test_evaluated": false,
+  "checkpoint_selection": "validation 60-minute MAE",
+  "engineering_smoke": true
+}

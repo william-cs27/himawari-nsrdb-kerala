@@ -1,0 +1,39 @@
+{
+  "purpose": "general project diagnostic; no journal target",
+  "figure_inches": [
+    10,
+    5.2
+  ],
+  "png_dpi": 180,
+  "color_limits_K": [
+    270.0,
+    295.0
+  ],
+  "transformations": [
+    "Satpy HSD calibration",
+    "nearest-neighbor AEQD regional crop",
+    "no enhancement or smoothing"
+  ],
+  "sources": [
+    {
+      "file": "data/patches/smoke/20180101T0400Z.npz",
+      "sha256": "c5f08fc120d60e4eb7bbbe6447bac9e4d2508002ad0b09a4ea4063bc38624183",
+      "nominal_time": "2018-01-01T04:00:00+00:00",
+      "observation_end": "2018-01-01T04:09:40.175107+00:00",
+      "min_K": 270.5083312988281,
+      "max_K": 288.36260986328125,
+      "valid_fraction": 1.0
+    },
+    {
+      "file": "data/patches/smoke/20180103T0400Z.npz",
+      "sha256": "4c67525dfb2323b2c3f8ba73163dfe04d6e0603008d899eaadaf388b34c39863",
+      "nominal_time": "2018-01-03T04:00:00+00:00",
+      "observation_end": "2018-01-03T04:09:40.939337+00:00",
+      "min_K": 280.93963623046875,
+      "max_K": 293.1690368652344,
+      "valid_fraction": 1.0
+    }
+  ],
+  "uncertainty": "two engineering example frames; not a statistical estimate",
+  "alt_text": "Two regional infrared temperature crops centered on Kerala, January 1 and January 3 2018, on a shared physical scale. Spatial variability and differences between dates are visible; these examples do not demonstrate forecast skill."
+}

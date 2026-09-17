@@ -1,0 +1,12 @@
+Processing ./.
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: himawari-nsrdb
+  Building wheel for himawari-nsrdb (pyproject.toml): started
+  Building wheel for himawari-nsrdb (pyproject.toml): finished with status 'done'
+  Created wheel for himawari-nsrdb: filename=himawari_nsrdb-0.1.0-py3-none-any.whl size=22184 sha256=92b373ad6bab75744d7be38311c7c2d412f33726210f3116ba443ba769345ef5
+  Stored in directory: /workspace/scratch/ac9c83dc0745/himawari_nsrdb/pip-ephem-wheel-cache-_zghh5i4/wheels/a9/95/21/2da5528d22f2bc12e098719a7aa49d43dec2f307488d451584
+Successfully built himawari-nsrdb
+Installing collected packages: himawari-nsrdb
+Successfully installed himawari-nsrdb-0.1.0
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.

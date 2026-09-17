@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "himawari-nsrdb"
+version = "0.1.0"
+description = "Retrospective Himawari–NSRDB forecasting research"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "pandas>=2.2,<4", "scipy>=1.11,<2", "scikit-learn>=1.4,<2", "pvlib>=0.11,<0.16"]
+[project.optional-dependencies]
+satellite = ["satpy>=0.55,<0.61", "pyresample>=1.28,<2", "pyproj>=3.6,<4"]
+neural = ["torch>=2.4,<3"]
+dev = ["pytest>=8,<10"]
+plots = ["matplotlib>=3.8,<4"]
+[project.scripts]
+weather-fusion = "weather_fusion.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

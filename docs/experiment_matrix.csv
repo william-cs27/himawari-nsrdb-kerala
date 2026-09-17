@@ -1,0 +1,18 @@
+id,stage,model,ablation,seeds,cohort,purpose,status
+B0,core,smart_persistence,none,13,image_matched,minimum benchmark,implemented
+B1,core,raw_ghi_persistence,none,13,image_matched,solar geometry check,implemented
+B2,core,calendar_climatology,none,13,image_matched,training-only calendar benchmark,implemented
+B3,core,hist_gradient_boosting,none,13,image_matched,strong classical local baseline,implemented
+N0,core,tabular,none,13|29|47,image_matched,local sequence baseline,implemented
+N1,core,image,none,13|29|47,image_matched,satellite-only diagnostic,implemented
+F0,core,fusion,none,13|29|47,image_matched,primary added-information test,implemented
+A1,ablations,fusion,current_only,13|29|47,image_matched,image history contribution,implemented
+A2,ablations,fusion,shuffle_order,13|29|47,image_matched,historical image order,implemented
+A3,ablations,fusion,spatial_mean,13|29|47,image_matched,regional spatial structure,implemented
+A4,ablations,fusion,remove_ghi,13|29|47,image_matched,GHI and derived index contribution,implemented
+A5,ablations,fusion,remove_cloud,13|29|47,image_matched,local cloud-category contribution,implemented
+A6,ablations,fusion,remove_moisture,13|29|47,image_matched,moisture-group contribution,implemented
+S0,extension,tabular,capacity_control,13|29|47,image_matched,additional parameter capacity,protocol_only
+S1,extension,fusion,longer_latency,13|29|47,recomputed_common,20-minute availability sensitivity,protocol_only
+S2,extension,fusion,band_subsets,13|29|47,identical_common,spectral information,protocol_only
+S3,extension,fusion,longer_history,13|29|47,recomputed_common,multi-hour history,protocol_only

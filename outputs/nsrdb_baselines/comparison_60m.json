@@ -1,0 +1,22 @@
+{
+  "horizon_minutes": 60,
+  "n": 5202,
+  "blocks": 14,
+  "block_days": 7,
+  "baseline_mae": 0.12399802138898089,
+  "candidate_mae": 0.10862581367577843,
+  "relative_skill": 0.12397139519654066,
+  "difference_mae_baseline_minus_candidate": 0.015372207713202454,
+  "practical_skill_threshold": 0.05,
+  "status": "block_bootstrap",
+  "confidence_interval": [
+    0.011084144378801645,
+    0.019795079290571786
+  ],
+  "skill_confidence_interval": [
+    0.09327070707056462,
+    0.15359067603860305
+  ],
+  "supports_any_improvement": true,
+  "supports_practical_improvement": true
+}

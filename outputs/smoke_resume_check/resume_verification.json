@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "check": "interruption after epoch 1; resumed final weights and predictions exactly match uninterrupted CPU run",
+  "prediction_rows": 40,
+  "test_evaluated": false
+}

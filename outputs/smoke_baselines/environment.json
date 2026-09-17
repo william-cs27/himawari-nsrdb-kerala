@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "scipy": "1.18.1",
+  "scikit-learn": "1.8.0",
+  "pvlib": "0.15.2",
+  "satpy": "0.60.0",
+  "pyresample": "1.35.0",
+  "torch": "2.14.0+cpu"
+}

@@ -1,0 +1,13 @@
+{
+  "horizon_minutes": 60,
+  "n": 10,
+  "blocks": 1,
+  "block_days": 7,
+  "baseline_mae": 0.021783545632278377,
+  "candidate_mae": 0.987037012,
+  "relative_skill": -44.31112742901828,
+  "difference_mae_baseline_minus_candidate": -0.9652534663677217,
+  "practical_skill_threshold": 0.05,
+  "status": "descriptive_only_too_few_blocks",
+  "confidence_interval": null
+}

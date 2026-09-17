@@ -1,0 +1,9 @@
+{
+  "matched_images": false,
+  "training_samples": 12035,
+  "validation_samples": 5202,
+  "wall_seconds": 12.946739080999578,
+  "test_evaluated": false,
+  "prepared_config_fingerprint": "d7e764b1cbaa454e6329f0ab99c45cb0ef6ec06d0982a15e63ac8038df23a54b",
+  "dataset_sha256": "6773f2ddd6f03a0b2068521a2f9da937dbb855f0996fe5a7e6f40ecc59b7e224"
+}

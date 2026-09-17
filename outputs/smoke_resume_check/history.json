@@ -1,0 +1,17 @@
+[
+  {
+    "epoch": 0,
+    "train_mae_all_horizons": 1.0509691953659057,
+    "validation_mae_primary": 0.9870370030403137
+  },
+  {
+    "epoch": 1,
+    "train_mae_all_horizons": 1.032993245124817,
+    "validation_mae_primary": 0.9870370030403137
+  },
+  {
+    "epoch": 2,
+    "train_mae_all_horizons": 1.0170543909072876,
+    "validation_mae_primary": 0.9870370030403137
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "nominal_time": "2018-01-05T06:20:00+00:00",
+  "observation_end": "2018-01-05T06:29:40.788915+00:00",
+  "available_time": "2018-01-05T06:30:00+00:00",
+  "availability_kind": "assumed latency; not measured delivery time",
+  "valid_fraction": 1.0,
+  "bands": [
+    "B13"
+  ],
+  "units": "K",
+  "shape": [
+    1,
+    32,
+    32
+  ],
+  "extent_km": 256,
+  "grid_spacing_km": 8.0,
+  "approximate_view_zenith_degrees": 73.1782309903839,
+  "parallax_corrected": false,
+  "patch_signature": "4eca4e6eb0ac6b41bbd0d8baadc13efc9875a448e0724837754aae5915e155e8",
+  "objects": [
+    {
+      "key": "AHI-L1b-FLDK/2018/01/05/0620/HS_H08_20180105_0620_B13_FLDK_R20_S0101.DAT.bz2",
+      "bytes": 24467425,
+      "etag": "3aa907e2a8fa1a3e56d2121fa40aff87-3",
+      "sha256": "04cf2d6dfc34e01e8a9104a1a023f9451254c477e12653c4f590421a250e739e",
+      "transferred_bytes": 24467425
+    }
+  ],
+  "bucket": "noaa-himawari8",
+  "patch_sha256": "a98f7a91923fd8fec9c38bfe2bfe2b171fe0c78f03cb6fb732a683fbd2752dc4"
+}

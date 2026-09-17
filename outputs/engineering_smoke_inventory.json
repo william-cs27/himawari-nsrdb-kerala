@@ -1,0 +1,500 @@
+{
+  "checked_at_utc": "2026-09-17T08:51:19.742971+00:00",
+  "bucket": "noaa-himawari8",
+  "config_fingerprint": "8a303c909a96b6a33a8c13852a16c9e623abc3cbb9231efbd1ce7b197ce1d71b",
+  "frames": [
+    {
+      "nominal_time": "2018-01-01T04:00:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/01/0400/HS_H08_20180101_0400_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24614742,
+          "etag": "b07004c81a60ec62f1b44a60286fbf34-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-01T04:10:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/01/0410/HS_H08_20180101_0410_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24636587,
+          "etag": "65e9d74f3cbb4dd51378d9aed2751560-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-01T04:20:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/01/0420/HS_H08_20180101_0420_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24642559,
+          "etag": "b06bbc793bb646ae87fce40fd951337b-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-01T04:30:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/01/0430/HS_H08_20180101_0430_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24655728,
+          "etag": "4b342f9ee9e4e71fab74aeeaa36190a5-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-01T04:40:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/01/0440/HS_H08_20180101_0440_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24659951,
+          "etag": "02cd2f453a84d85476c0eb224366afa4-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-01T04:50:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/01/0450/HS_H08_20180101_0450_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24669893,
+          "etag": "42fb7bd8ca28e76dba370d8f65dd2021-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-01T05:00:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/01/0500/HS_H08_20180101_0500_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24675942,
+          "etag": "5b248d659b3840adb0350f149ef46b3b-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-01T05:10:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/01/0510/HS_H08_20180101_0510_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24697787,
+          "etag": "3e36e255a905e8f9970f0cb48d06dd72-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-01T05:20:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/01/0520/HS_H08_20180101_0520_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24672508,
+          "etag": "d9d4cb96758ad66734907fe582926c77-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-01T05:30:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/01/0530/HS_H08_20180101_0530_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24676637,
+          "etag": "9712d3bbef83c79bbccc4069e2e4ea6f-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-01T05:40:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/01/0540/HS_H08_20180101_0540_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24690788,
+          "etag": "0a96b15cfd2033f4850e813b6501734d-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-01T05:50:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/01/0550/HS_H08_20180101_0550_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24683924,
+          "etag": "006886b2d0a3d26c8801867a2c5d2a5c-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-01T06:00:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/01/0600/HS_H08_20180101_0600_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24687438,
+          "etag": "f982c93c146b9f0dbd86af77d5f174b0-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-01T06:10:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/01/0610/HS_H08_20180101_0610_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24675464,
+          "etag": "53f5343dc50a803e64f9520b6d4ddc76-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-01T06:20:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/01/0620/HS_H08_20180101_0620_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24676826,
+          "etag": "6677106be47554942c9dd930f84a5403-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-03T04:00:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/03/0400/HS_H08_20180103_0400_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24159970,
+          "etag": "bf5e2887cb55631f9778fb2fcdae4e4c-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-03T04:10:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/03/0410/HS_H08_20180103_0410_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24187574,
+          "etag": "c5accbb1d0e437c9213e2f1c60e7e546-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-03T04:20:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/03/0420/HS_H08_20180103_0420_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24150980,
+          "etag": "2fe6dc5f41097d881910cd4bbd2de3c0-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-03T04:30:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/03/0430/HS_H08_20180103_0430_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24161844,
+          "etag": "9d6259b25f9942f4a5147ed0ffc32204-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-03T04:40:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/03/0440/HS_H08_20180103_0440_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24155232,
+          "etag": "c68d1d2030773137233575b73b750581-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-03T04:50:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/03/0450/HS_H08_20180103_0450_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24154251,
+          "etag": "8a5190147825673008b3e5ac7d1b536a-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-03T05:00:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/03/0500/HS_H08_20180103_0500_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24157931,
+          "etag": "2f7d7c5311872176dd4a1a9d3bd0a24d-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-03T05:10:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/03/0510/HS_H08_20180103_0510_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24155412,
+          "etag": "49e198122dd23909567e2963dd530882-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-03T05:20:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/03/0520/HS_H08_20180103_0520_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24164880,
+          "etag": "e5a18f3b3e06be1b10a59483be44310a-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-03T05:30:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/03/0530/HS_H08_20180103_0530_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24152674,
+          "etag": "53ecb0c2e41b25aa65e27ff489813200-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-03T05:40:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/03/0540/HS_H08_20180103_0540_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24151813,
+          "etag": "17fd981a3bac5ef276d42bf1b6272159-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-03T05:50:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/03/0550/HS_H08_20180103_0550_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24140764,
+          "etag": "925d00de6b4750200515e252b7914557-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-03T06:00:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/03/0600/HS_H08_20180103_0600_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24127460,
+          "etag": "8d823818dc181c145c76e61998d415bd-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-03T06:10:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/03/0610/HS_H08_20180103_0610_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24160824,
+          "etag": "8834f27be6dd4faf2146e9a07d6fcff8-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-03T06:20:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/03/0620/HS_H08_20180103_0620_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24130818,
+          "etag": "5f672c9793f8073c5473a6f3c05ba903-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-05T04:00:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/05/0400/HS_H08_20180105_0400_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24340431,
+          "etag": "90f7ada816b182959ad325d3929ded3d-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-05T04:10:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/05/0410/HS_H08_20180105_0410_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24354207,
+          "etag": "567af516616da877f5ff837327e9b9e7-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-05T04:20:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/05/0420/HS_H08_20180105_0420_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24369033,
+          "etag": "543aa1f21b9467f8737418168d728107-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-05T04:30:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/05/0430/HS_H08_20180105_0430_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24378828,
+          "etag": "074299d93be087208d4e3153156ad840-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-05T04:40:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/05/0440/HS_H08_20180105_0440_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24440504,
+          "etag": "560f50700cf95aa50fa0ef890796f667-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-05T04:50:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/05/0450/HS_H08_20180105_0450_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24408439,
+          "etag": "14659910021cc7edde750b9380a34164-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-05T05:00:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/05/0500/HS_H08_20180105_0500_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24431890,
+          "etag": "fae46e54bc35cfe27c3e624e417e6ca0-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-05T05:10:00+00:00",
+      "objects": [],
+      "status": "missing",
+      "reason": "Missing band B13"
+    },
+    {
+      "nominal_time": "2018-01-05T05:20:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/05/0520/HS_H08_20180105_0520_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24445123,
+          "etag": "35a2f730de35909be4a4a5590d1769cf-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-05T05:30:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/05/0530/HS_H08_20180105_0530_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24453422,
+          "etag": "72c0537b170950eecabf62f75fe782e9-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-05T05:40:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/05/0540/HS_H08_20180105_0540_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24470042,
+          "etag": "8d139f065f83f3112a225cf96a8f924a-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-05T05:50:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/05/0550/HS_H08_20180105_0550_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24478530,
+          "etag": "1d57ec9e4477a35e574ad64e84d8f145-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-05T06:00:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/05/0600/HS_H08_20180105_0600_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24465436,
+          "etag": "d7f0e7dae0e8f59cd03ac75e7a2ac56c-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-05T06:10:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/05/0610/HS_H08_20180105_0610_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24515998,
+          "etag": "87eac5ddd7eb0511829a5a169770516b-3"
+        }
+      ],
+      "status": "complete"
+    },
+    {
+      "nominal_time": "2018-01-05T06:20:00+00:00",
+      "objects": [
+        {
+          "key": "AHI-L1b-FLDK/2018/01/05/0620/HS_H08_20180105_0620_B13_FLDK_R20_S0101.DAT.bz2",
+          "bytes": 24467425,
+          "etag": "3aa907e2a8fa1a3e56d2121fa40aff87-3"
+        }
+      ],
+      "status": "complete"
+    }
+  ],
+  "total_bytes": 1074348509,
+  "total_gib": 1.0005650194361806,
+  "incomplete_frames": 1
+}
